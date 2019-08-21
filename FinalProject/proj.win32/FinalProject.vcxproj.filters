@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mgrs">
+      <UniqueIdentifier>{da24fd59-4e38-42d5-92bc-3e92af8444e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Layer">
+      <UniqueIdentifier>{41c23da7-36f2-47fe-b675-956f5bbb7076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{653b075f-1724-4b97-9115-68219de4a68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Secene">
+      <UniqueIdentifier>{bef852f2-028b-4eb4-bbe4-7b28eaf20d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PopUp">
+      <UniqueIdentifier>{051c4126-4b66-4e49-b2db-d97fa02561eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs">
+      <UniqueIdentifier>{a63172d7-caa5-4be8-b14e-8e8b844bee16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Objects">
+      <UniqueIdentifier>{49372e4b-b13d-42a2-969b-c123adc6f55b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ContacListener.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CheckPoint.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LayerWindSprite.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Location.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LogoScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapTMX.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TreasureChest.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SlingShot.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Simulation.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneMgr.cpp">
+      <Filter>src\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ResourceMgr.cpp">
+      <Filter>src\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HUDLayer.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\B2DebugDrawLayer.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\GB2ShapeCache-x.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\GLESRender.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\TiledBodyCreator.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\VisibleRect.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DynamicObject.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicsComponent.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicsSystem.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ContacListenerSimulate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackpackScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Boss.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gold.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Item.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ItemLoot.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadGameScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CustomLayer.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopUp.cpp">
+      <Filter>src\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopUpAbout.cpp">
+      <Filter>src\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopupHighScore.cpp">
+      <Filter>src\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopUpPause.cpp">
+      <Filter>src\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopUpPlay.cpp">
+      <Filter>src\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopUpQuit.cpp">
+      <Filter>src\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PopupSetting.cpp">
+      <Filter>src\PopUp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameValue.cpp">
+      <Filter>src\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShopingScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MovingPlatform.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Wind.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundMgr.cpp">
+      <Filter>src\Mgrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utils.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InfiniteParallaxNode.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Archievement.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MoveAction.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayPlot2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayPlotAndTurto.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Elevator.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EndLayer.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EndScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MiddleScene.cpp">
+      <Filter>src\Secene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TurtorialLayer.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlotLayer2.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlotLayer1.cpp">
+      <Filter>src\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stone.cpp">
+      <Filter>src\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ContacListener.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CheckPoint.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LayerWindSprite.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadScene.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Location.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LogoScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapTMX.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TreasureChest.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SlingShot.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Simulation.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneMgr.h">
+      <Filter>src\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ResourceMgr.h">
+      <Filter>src\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HUDLayer.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utils.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ObjectPool.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RayCast.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\B2DebugDrawLayer.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\GB2ShapeCache-x.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\GLESRender.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\TiledBodyCreator.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\VisibleRect.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DynamicObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicsSystem.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicsComponent.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ContacListenerSimulate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackpackScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Boss.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gold.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Item.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ItemLoot.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadGameScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CustomLayer.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopUp.h">
+      <Filter>src\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopUpAbout.h">
+      <Filter>src\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopupHighScore.h">
+      <Filter>src\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopUpPause.h">
+      <Filter>src\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopUpPlay.h">
+      <Filter>src\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopUpQuit.h">
+      <Filter>src\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PopupSetting.h">
+      <Filter>src\PopUp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameValue.h">
+      <Filter>src\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopingScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MovingPlatform.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Wind.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundMgr.h">
+      <Filter>src\Mgrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InfiniteParallaxNode.h">
+      <Filter>src\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Archievement.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MoveAction.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayPlot2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayPlotAndTurto.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Elevator.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EndLayer.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EndScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MiddleScene.h">
+      <Filter>src\Secene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TurtorialLayer.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlotLayer2.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlotLayer1.h">
+      <Filter>src\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stone.h">
+      <Filter>src\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

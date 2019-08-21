@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>Wind1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-8,0}</string>
+                <key>spriteSize</key>
+                <string>{1386,1555}</string>
+                <key>spriteSourceSize</key>
+                <string>{1410,1555}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{1386,1555}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>preimage--1.png</string>
+            <key>size</key>
+            <string>{1388,1557}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:a50f5c6f049faf42ad6b8d17c7060c24:bf71e205b90fc2e4928810ba7347e196:278973bde9f8fa55f54096b29e2c4f53$</string>
+            <key>textureFileName</key>
+            <string>preimage--1.png</string>
+        </dict>
+    </dict>
+</plist>
